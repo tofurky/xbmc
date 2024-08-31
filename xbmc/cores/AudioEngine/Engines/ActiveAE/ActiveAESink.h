@@ -97,7 +97,6 @@ public:
 
   void EnumerateSinkList(bool force, std::string driver);
   void EnumerateOutputDevices(AEDeviceList &devices, bool passthrough);
-  std::string ValidateOuputDevice(const std::string& device, bool passthrough) const;
   void Start();
   void Dispose();
   AEDeviceType GetDeviceType(const std::string &device);
